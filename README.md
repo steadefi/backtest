@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# LYF Backtest
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+The following tasks are ussd to extract on-chain data for the backtest
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+Try running some of the following tasks:
+npx hardhat generateBlocks
+npx hardhat getAllRates
+npx hardhat getFarmingYields
+npx hardhat getAllPositions
+
 ```
