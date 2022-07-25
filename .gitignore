@@ -1,0 +1,34 @@
+// Generated files
+cache/
+artifacts/
+coverage*
+typechain/
+typechain-types/
+storageLayout/
+bin/
+
+// VS Code settings
+.vscode/*
+!.vscode/settings.json.default
+!.vscode/launch.json.default
+!.vscode/extensions.json.default
+
+// VS Code counter extension
+.VSCodeCounter/*
+
+// yarn packages
+node_modules/
+
+// project private files
+.env
+.secrets.json
+
+.yalc
+yalc.lock
+
+.DS_Store
+
+.ssh_key.
+
+tasks/queryResult/bscMainnet/positions/
+tasks/queryResult/ftmMainnet/positions/

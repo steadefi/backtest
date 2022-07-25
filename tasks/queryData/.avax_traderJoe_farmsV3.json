@@ -1,0 +1,773 @@
+{
+  "name": "MasterChefV3 Farms ",
+  "version": {
+    "major": 5,
+    "minor": 0,
+    "patch": 0
+  },
+  "timestamp": "2022-06-14T00:00:00+00:00",
+  "avaxFarms": [
+    {
+      "id": 0,
+      "pair": "0x454E67025631C065d3cFAD6d71E6892f74487a15",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "JOE-AVAX"
+    },
+    {
+      "id": 1,
+      "pair": "0xb5c9e891AF3063004a441BA4FaB4cA3D6DEb5626",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "YAK-AVAX"
+    },
+    {
+      "id": 2,
+      "pair": "0x72c3438cf1c915EcF5D9F17A6eD346B273d5bF71",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4",
+      "name": "XAVA-AVAX"
+    },
+    {
+      "id": 3,
+      "pair": "0x62cf16BF2BC053E7102E2AC1DEE5029b94008d99",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xCE1bFFBD5374Dac86a2893119683F4911a2F7814",
+      "name": "SPELL-AVAX"
+    },
+    {
+      "id": 4,
+      "pair": "0x361B625c074c736ef2d959e983b4478aA23a5d19",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x937E077aBaEA52d3abf879c9b9d3f2eBd15BAA21",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "OH-AVAX"
+    },
+    {
+      "id": 5,
+      "pair": "0x230c4aD11510360aD0DB564a889C33559A959487",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x027dbcA046ca156De9622cD1e2D907d375e53aa7",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AMPL-AVAX"
+    },
+    {
+      "id": 6,
+      "pair": "0x824Ca83923990b91836ea927c14C1fb1B1790B08",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xd039C9079ca7F2a87D632A9C0d7cEa0137bAcFB5",
+      "name": "APEX-AVAX"
+    },
+    {
+      "id": 7,
+      "pair": "0x601e0f63bE88A52b79DbaC667d6b4A167CE39113",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x542fA0B261503333B90fE60c78F2BeeD16b7b7fD",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "TRACTOR-AVAX"
+    },
+    {
+      "id": 9,
+      "pair": "0xF8Ba19769AaE90bEF1d6B00aAEE38204Ed48976a",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xe0Ce60AF0850bF54072635e66E79Df17082A1109",
+      "name": "ICE-AVAX"
+    },
+    {
+      "id": 10,
+      "pair": "0x23dDca8de11eCcd8000263f008A92e10dC1f21e8",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "MAI-AVAX"
+    },
+    {
+      "id": 11,
+      "pair": "0x8fB5bD3aC8eFD05DACae82F512dD03e14aAdAb73",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xC38f41A296A4493Ff429F1238e030924A1542e50",
+      "name": "SNOB-AVAX"
+    },
+    {
+      "id": 12,
+      "pair": "0xb78c8238bD907c42BE45AeBdB4A8C8a5D7B49755",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c",
+      "name": "PEFI-AVAX"
+    },
+    {
+      "id": 13,
+      "pair": "0x140CAc5f0e05cBEc857e65353839FddD0D8482C1",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xA32608e873F9DdEF944B24798db69d80Bbb4d1ed",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "CRA-AVAX"
+    },
+    {
+      "id": 14,
+      "pair": "0xac3F978714c613E768272c502a8912bC03DCf624",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x0f34919404a290e71fc6A510cB4a6aCb8D764b24",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "BLZZ-AVAX"
+    },
+    {
+      "id": 15,
+      "pair": "0xebF50b8089a0c5E7c5de23F644fcD723818f65B3",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xbD83010eB60F12112908774998F65761cf9f6f9a",
+      "name": "BOO-AVAX"
+    },
+    {
+      "id": 18,
+      "pair": "0xB7a4Ca0c9B58a33B244C44a8Bf9833b0E7918429",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x72699ba15CC734F8db874fa9652c8DE12093F187",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "GRO-AVAX"
+    },
+    {
+      "id": 19,
+      "pair": "0x2923a62b2531EC744ca0C1e61dfFab1Ad9369FeB",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x47EB6F7525C1aA999FBC9ee92715F5231eB1241D",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "MELT-AVAX"
+    },
+    {
+      "id": 20,
+      "pair": "0x86D1b1Ab4812a104BC1Ea1FbD07809DE636E6C6b",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xaeDc1a7314362070A46B4cA8d90C32898068D03F",
+      "v3": true,
+      "token0": "0x8aE8be25C23833e0A01Aa200403e826F611f9CD2",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "CRAFT-AVAX"
+    },
+    {
+      "id": 21,
+      "pair": "0xB674f93952F02F2538214D4572Aa47F262e990Ff",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x321E7092a180BB43555132ec53AaA65a5bF84251",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "gOHM-AVAX"
+    },
+    {
+      "id": 22,
+      "pair": "0xf895E6588585912e60b0131fa173e986859f69D5",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x5eDE350E84223fb50775fD91a723F2ca71034cf7",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "aWOOL-AVAX"
+    },
+    {
+      "id": 23,
+      "pair": "0xb97F23A9e289B5F5e8732b6e20df087977AcC434",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x245C2591403e182e41d7A851eab53B01854844CE",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "MEAD-AVAX"
+    },
+    {
+      "id": 24,
+      "pair": "0xb2fF0817ad078C92C3AfB82326592e06C92581B8",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xb27c8941a7Df8958A1778c0259f76D1F8B711C35",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "KLO-AVAX"
+    },
+    {
+      "id": 25,
+      "pair": "0x0B2777b0c55AEaAeb56E86B6eEFa6cC2Cfa00e07",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xec3492a2508DDf4FDc0cD76F31f340b30d1793e6",
+      "name": "CLY-AVAX"
+    },
+    {
+      "id": 26,
+      "pair": "0xF723feEa2E376b7231cB250F7628fFfc3f2dbD10",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x2147EFFF675e4A4eE1C2f918d181cDBd7a8E208f",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "ALPHA.e-AVAX"
+    },
+    {
+      "id": 27,
+      "pair": "0x9615a11eAA912eAE869E9c1097df263Fc3E105F3",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x026187BdbC6b751003517bcb30Ac7817D5B766f8",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "H2O-AVAX"
+    },
+    {
+      "id": 28,
+      "pair": "0xCDFD91eEa657cc2701117fe9711C9a4F61FEED23",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x364996dc358926b9A86b1Ed601A33d5915fC86C8",
+      "v3": true,
+      "token0": "0x22d4002028f537599bE9f666d1c4Fa138522f9c8",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "PTP-AVAX"
+    },
+    {
+      "id": 29,
+      "pair": "0x2A8A315e82F85D1f0658C5D66A452Bbdd9356783",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+      "token1": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "USDC-USDC.e"
+    },
+    {
+      "id": 30,
+      "pair": "0x5d95ae932D42E53Bb9DA4DE65E9b7263A4fA8564",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xF891214fdcF9cDaa5fdC42369eE4F27F226AdaD6",
+      "name": "IME-AVAX"
+    },
+    {
+      "id": 31,
+      "pair": "0x829A9F8894Ef17F1523EC87a9f8e5e0CF5DC2003",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x7b2B702706D9b361dfE3f00bD138C0CFDA7FB2Cf",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "PLN-AVAX"
+    },
+    {
+      "id": 32,
+      "pair": "0x3052a75dfD7A9D9B0F81E510E01d3Fe80A9e7ec7",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x2C9832EBe34b581871a6acB6f68384380121559F",
+      "v3": true,
+      "token0": "0x7761E2338B35bCEB6BdA6ce477EF012bde7aE611",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "EGG-AVAX"
+    },
+    {
+      "id": 33,
+      "pair": "0x862905a82382Db9405a40DCAa8Ee9e8F4af52C89",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+      "name": "AVAX-FRAX"
+    },
+    {
+      "id": 34,
+      "pair": "0x3E6Be71dE004363379d864006AAC37C9F55F8329",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x321E7092a180BB43555132ec53AaA65a5bF84251",
+      "token1": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+      "name": "FRAX-gOHM"
+    },
+    {
+      "id": 35,
+      "pair": "0x47898DbF127205Ea2E94a30B5291C9476E36f3bA",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x4e3642603a75528489C2D94f86e9507260d3c5a1",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-JGN"
+    },
+    {
+      "id": 36,
+      "pair": "0x9155f441FFDfA81b13E385bfAc6b3825C05184Ee",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x6329eba10310daf163e358ED996419B738b13B3a",
+      "v3": true,
+      "token0": "0x3EeFb18003D033661f84e48360eBeCD181A84709",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-ISA"
+    },
+    {
+      "id": 37,
+      "pair": "0x3fcD1d5450e63FA6af495A601E6EA1230f01c4E3",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x138c24f4e5E85ee4583C2797824F5dEedbe80509",
+      "v3": true,
+      "token0": "0x637afeff75ca669fF92e4570B14D6399A658902f",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-COOK"
+    },
+    {
+      "id": 38,
+      "pair": "0x53942Dcce5087f56cF1D68F4e017Ca3A793F59a2",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x214DB107654fF987AD859F34125307783fC8e387",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-FXS"
+    },
+    {
+      "id": 39,
+      "pair": "0x74B651Eff97871eA99fcc14423E611d85Eb0EA93",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+      "token1": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+      "name": "USDT-USDT.e"
+    },
+    {
+      "id": 40,
+      "pair": "0x81034A38a124A3290DC226798f34c6645B153a02",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x851c63E0F698035C056f58Ed9BeDcc68a32F10F3",
+      "v3": true,
+      "token0": "0x100Cc3a819Dd3e8573fD2E46D1E66ee866068f30",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-DCAU"
+    },
+    {
+      "id": 41,
+      "pair": "0x4dC5291cdc7Ad03342994E35D0Ccc76De065A566",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xC7f4debC8072e23fe9259A5C0398326d8EfB7f5c",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-HEC"
+    },
+    {
+      "id": 42,
+      "pair": "0x224B49B3FC8Ef9FB1515b633F6C2537E87315B6d",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xE5CAeF4Af8780E59Df925470b050Fb23C43CA68C",
+      "name": "AVAX-FRM"
+    },
+    {
+      "id": 43,
+      "pair": "0x0c91a070f862666bBcce281346BE45766d874D98",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x34a7Ae4473d46C559ACd7A8cf8E9dA82dd0DD712",
+      "v3": true,
+      "token0": "0x62edc0692BD897D2295872a9FFCac5425011c661",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-GMX"
+    },
+    {
+      "id": 44,
+      "pair": "0xb8361D0E3F3B0fc5e6071f3a3C3271223C49e3d9",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xc2Ee73EF5FF77c37dEBa2593EC80e5d4B655735E",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xd9D90f882CDdD6063959A9d837B05Cb748718A05",
+      "name": "AVAX-MORE"
+    },
+    {
+      "id": 45,
+      "pair": "0x7BF98BD74E19AD8eB5e14076140Ee0103F8F872B",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xF116f9748D8c7e97E8C94554117A6463Bb7d1979",
+      "v3": true,
+      "token0": "0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-UST-AXL"
+    },
+    {
+      "id": 46,
+      "pair": "0xDB87ba23c60e5fe6514f352A30b1170494045221",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x5edACa6AE76c154315d6C38B26D5b1F0a39FfAEB",
+      "v3": true,
+      "token0": "0xEd2b42D3C9c6E97e11755BB37df29B6375ede3EB",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-HON"
+    },
+    {
+      "id": 47,
+      "pair": "0x5B9Faf0feA95df4D4cB894Ef920704daFf656f3E",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x24a928000d15Bac56253c265858D576B6cf56E81",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xFc6Da929c031162841370af240dEc19099861d3B",
+      "name": "AVAX-DOMI"
+    },
+    {
+      "id": 48,
+      "pair": "0x565d20BD591b00EAD0C927e4b6D7DD8A33b0B319",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xf693248F96Fe03422FEa95aC0aFbBBc4a8FdD172",
+      "name": "AVAX-TUS"
+    },
+    {
+      "id": 49,
+      "pair": "0xA3A029224857bF467E896523E268a5fc005Ce810",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11",
+      "token1": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+      "name": "USDC.e-UST-AXL"
+    },
+    {
+      "id": 50,
+      "pair": "0xf4003F4efBE8691B60249E6afbD307aBE7758adb",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "AVAX-USDC"
+    },
+    {
+      "id": 51,
+      "pair": "0x4b946c91C2B1a7d7C40FB3C130CdfBaf8389094d",
+      "allocPoint": 100,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x3427846C8E4711808a477B07C9D09EB3d23a1b06",
+      "v3": true,
+      "token0": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-sAVAX"
+    },
+    {
+      "id": 52,
+      "pair": "0x939D6eD8a0f7FC90436BA6842D7372250a03fA7c",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x7DE34518f11576cF03281cE615d200419aC8187f",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xeA068Fba19CE95f12d252aD8Cb2939225C4Ea02D",
+      "name": "AVAX-FIEF"
+    },
+    {
+      "id": 53,
+      "pair": "0x218e6A0AD170460F93eA784FbcC92B57DF13316E",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xF84ea20027a7D5a471a917C34B7EAEC85F0090Ac",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xeb8343D5284CaEc921F035207ca94DB6BAaaCBcd",
+      "name": "AVAX-ECD"
+    },
+    {
+      "id": 54,
+      "pair": "0x9EF0C12b787F90F59cBBE0b611B82D30CAB92929",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x8b54e7882541fA71f67714B19Ec7765D6ec5110F",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x5817D4F0b62A59b17f75207DA1848C2cE75e7AF4",
+      "name": "AVAX-VTX"
+    },
+    {
+      "id": 55,
+      "pair": "0x3bc40d4307cD946157447CD55d70ee7495bA6140",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+      "token1": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "JOE-USDC"
+    },
+    {
+      "id": 57,
+      "pair": "0x66D12e1cb13EAbAB21f1Fb6628B1Ef33C6dED5a7",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x80C432C642E097DB2D4cf576E17428900B575348",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x0f577433Bf59560Ef2a79c124E9Ff99fCa258948",
+      "name": "AVAX-MONEY"
+    },
+    {
+      "id": 58,
+      "pair": "0x7Ca8e6a11466f8542f2b65B845C77D425182CbDe",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x4e9Fd22630008E3Caa96441050494537d0c56987",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xAfE3d2A31231230875DEe1fa1eEF14a412443d22",
+      "name": "AVAX-DFIAT"
+    },
+    {
+      "id": 59,
+      "pair": "0x1371a6d8CBe2Ca66d0911f270e1cAA7C12A3045A",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x67D16973416Ac8aaFCC03Fc790B52ca47dF05A3c",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x78Ea3fef1c1f07348199Bf44f45b803b9B0Dbe28",
+      "name": "AVAX-FLY"
+    },
+    {
+      "id": 60,
+      "pair": "0x465460F46969F2bf969432956491dEE95A6ba493",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xE941Ba83B221D68595e457dfa271c730f1732635",
+      "v3": true,
+      "token0": "0x9f285507Ea5B4F33822CA7aBb5EC8953ce37A645",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-DEG"
+    },
+    {
+      "id": 61,
+      "pair": "0x9A166ae3d4C3C2a7fEbfAe86D16896933f4e10a9",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+      "token1": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "WETH.e-USDC"
+    },
+    {
+      "id": 62,
+      "pair": "0x66Ab843D86aD296ED1953C179d9Ce2bb587Ff2Aa",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+      "token1": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "WBTC.e-USDC"
+    },
+    {
+      "id": 63,
+      "pair": "0x11bBfA2Fa3b995ceA99D20DFA618fd32e252d8F2",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "v3": true,
+      "token0": "0x0802d66f029c46E042b74d543fC43B6705ccb4ba",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-APE"
+    },
+    {
+      "id": 64,
+      "pair": "0x00979Bd14bD5Eb5c456c5478d3BF4b6E9212bA7d",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x2ebE4F086300Aa227D0Fba7718BDaDa8190Cd26b",
+      "v3": true,
+      "token0": "0x846D50248BAf8b7ceAA9d9B53BFd12d7D7FBB25a",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-VSO"
+    },
+    {
+      "id": 65,
+      "pair": "0x3931589c6c078524d1fa88e4d86d2f1ac9fed56d",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xD4283F9E5a91E4D390FccB3c501Cf8c44c6E53Bc",
+      "v3": true,
+      "token0": "0x4Bfc90322dD638F81F034517359BD447f8E0235a",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-NEWO"
+    },
+    {
+      "id": 66,
+      "pair": "0xeCD6D33555183Bc82264dbC8bebd77A1f02e421E",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x8b68F9ECC6aEE3f697d1F3589fd95F4B91AABf21",
+      "v3": true,
+      "token0": "0xb599c3590F42f8F995ECfa0f85D2980B76862fc1",
+      "token1": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "AVAX-UST"
+    },
+    {
+      "id": 67,
+      "pair": "0x9C396cF96319C8EF2b662Af57DEA6EE374b9959F",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x2fa11a02bF7C5d5de920564d61EB3546cbB7589a",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x449674B82F05d498E126Dd6615a1057A9c088f2C",
+      "name": "AVAX-LOST"
+    },
+    {
+      "id": 68,
+      "pair": "0x0b44F6F5a32De1b36CfCD5F68f181F6787fb3225",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xa8a9D272D1a3B6211400f3759984ea59588853F8",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x1111111111182587795eF1098ac7da81a108C97a",
+      "name": "AVAX-BPT"
+    },
+    {
+      "id": 69,
+      "pair": "0xbdc7EF37283BC67D50886c4afb64877E3e83f869",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0x537533139e9240bB97031074ADf8E7f1a56E0833",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x77777777777d4554c39223C354A05825b2E8Faa3",
+      "name": "AVAX-YETI"
+    },
+    {
+      "id": 70,
+      "pair": "0x30556AcC64b7b8F37ae4CE8325dd279847F09926",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xf732016b26dB5a855AeC3d2aB1e4aE2c78B42b05",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x5085434227aB73151fAd2DE546210Cbc8663dF96",
+      "name": "AVAX-DBY"
+    },
+    {
+      "id": 71,
+      "pair": "0x76a551fc28029639AB017742c224159A786F544F",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xA8a91f314788bD93afc4b66129F43549398B669F",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xb279f8DD152B99Ec1D84A489D32c35bC0C7F5674",
+      "name": "AVAX-STEAK"
+    },
+    {
+      "id": 72,
+      "pair": "0x3B90A467f58631369903c2005457a3d28d47f3E5",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xc0a15dceE1cB664eE79038976fbE15F59F0389BB",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0x9C846D808A41328A209e235B5e3c4E626DAb169E",
+      "name": "AVAX-FERT"
+    },
+    {
+      "id": 73,
+      "pair": "0x017025f07b23Bb30e1140dB10D3fe7A1626CFdD0",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xd2B2856882a274007d4b26d3eeB2c3E610aFbF05",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xab592d197ACc575D16C3346f4EB70C703F308D1E",
+      "name": "AVAX-FEED"
+    },
+    {
+      "id": 74,
+      "pair": "0xD138F9204A65A8AC63A06e6504d0F5293238c44A",
+      "allocPoint": 0,
+      "masterChef": "0x188bED1968b795d5c9022F6a0bb5931Ac4c18F00",
+      "rewarder": "0xD19F8b7fAfED83F261196419280835983320104C",
+      "v3": true,
+      "token0": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "token1": "0xbf1230bb63bfD7F5D628AB7B543Bcefa8a24B81B",
+      "name": "AVAX-CHRO"
+    }
+  ],
+  "rinkebyFarms": [
+    {
+      "id": 0,
+      "pair": "0xaC7b4E5C0248828d4fe3407c56d9EEeB4C4A6747",
+      "allocPoint": 100,
+      "rewarder": "0xAd4c8Af81D8e32a780bE8d042d73eE03EA129Aec",
+      "masterChef": "0xEedf119022F1Bb5F63676BbE855c82151B7198AF",
+      "v3": true,
+      "token0": "0x7Ea26570ef0d86D02B4f79266f84D2956AEBBd65",
+      "token1": "0xf515FE956c41F8D919b3f5730943959b169555d3",
+      "name": "TUNA-BACON"
+    }
+  ],
+  "fujiFarms": [
+    {
+      "id": 1,
+      "pair": "0xb18aa9d339351e41c79b91cd463e30226bfdb6d9",
+      "allocPoint": 100,
+      "masterChef": "0x47e4B09651D76609e902183c2315b0638fa8375E",
+      "name": "WETH-AVAX"
+    }
+  ]
+}

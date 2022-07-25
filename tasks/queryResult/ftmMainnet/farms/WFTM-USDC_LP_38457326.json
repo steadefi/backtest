@@ -1,0 +1,50 @@
+{
+  "blockNo": 38457326,
+  "lpName": "WFTM-USDC LP",
+  "lpTokens": 2.2543357204055914,
+  "token0_symbol": "USDC",
+  "token0_decimals": 6,
+  "token0": 2263216.102005,
+  "token0_liquidity": 21461093.583465,
+  "token0_price": 1.00074866,
+  "token0_posVal": 2216637.741949,
+  "token0_posValUSD": 2218297.2499608872,
+  "token0_debtVal": 1451199.63587,
+  "token0_debtValUSD": 1452286.0909893904,
+  "token1_symbol": "WFTM",
+  "token1_decimals": 18,
+  "token1": 6508286.783479652,
+  "token1_liquidity": 61715251.85090269,
+  "token1_price": 0.35019742,
+  "token1_posVal": 6494553.087801504,
+  "token1_posValUSD": 2274375.73540112,
+  "token1_debtVal": 3092371.8248380874,
+  "token1_debtValUSD": 1082940.63473899,
+  "liquidity": 43089682.61862354,
+  "tvl": 4544095.7215666,
+  "health": 4492672.985362007,
+  "debt": 2535226.7257283805,
+  "leverage": 2.2951705382720937,
+  "workerPositions": [
+    {
+      "name": "USDC-WFTM SpookyWorker",
+      "address": "0x29A7929520ADdC7D3000a81129d4E5Aa7a571f49",
+      "vault": "ibFTM",
+      "borrowToken": "WFTM",
+      "posVal": 6494553.087801504,
+      "posValUSD": 2274375.73540112,
+      "debtVal": 3092371.8248380874,
+      "debtValUSD": 1082940.63473899
+    },
+    {
+      "name": "WFTM-USDC SpookyWorker",
+      "address": "0xabE59308AC72f04b1a2D04175d5247ba981075a6",
+      "vault": "ibUSDC",
+      "borrowToken": "USDC",
+      "posVal": 2216637.741949,
+      "posValUSD": 2218297.2499608872,
+      "debtVal": 1451199.63587,
+      "debtValUSD": 1452286.0909893904
+    }
+  ]
+}

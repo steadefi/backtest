@@ -1,0 +1,20 @@
+[10582559,10584921,10670840,10673237,10675637,10678024,10680409,10682803,10737077,10739444,10741824,10744176,10746552,10839190,10841590,10843990,10846389,10848788,10851187,10853585,11349994,11954865,11957152,11959544,11961884,11964249,11966520,11968783,11971156,11992179,11994573,11996966,11999341,12001725,12004113,12006471,12008838,12011171,12013550,12015940,12060988,12063371,12065764,12068155,12070552,12072948,12075346,12077708,12080070,12082435,12084834,12087234,12089633,12092018,12115872,12118207,12120587,12122985,12125384,12127764,12130147,12132468,12134745,12137002,12139297,12160827,12163204,12165557,12167893,12170225,12172479,12174866,12177266,12179644,12182044,12184441,12186841,12189237,12903047,12937270,15638030,15640418,15642814,15645213,15647611,15649991,15652391,15654789,657157,15659547,15927023,15929341,15931711,16534557,16536941,17481518,17483911,17486310,17488705,17491105]
+
+
+Failed to getInterestRate for block 11349994 : 2021-09-29T23:59:59.000Z
+Error: value out-of-bounds (argument="floating", value={"type":"BigNumber","hex":"-0x0793a2c9f5403d8d65"}, code=INVALID_ARGUMENT, version=abi/5.6.0)
+    at Logger.makeError (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\logger\src.ts\index.ts:261:28)
+    at Logger.throwError (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\logger\src.ts\index.ts:273:20)
+    at Logger.throwArgumentError (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\logger\src.ts\index.ts:277:21)
+    at NumberCoder.Coder._throwError (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\abi\src.ts\coders\abstract-coder.ts:68:16)
+    at NumberCoder.encode (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\abi\src.ts\coders\number.ts:35:18)
+    at D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\abi\src.ts\coders\array.ts:71:19
+    at Array.forEach (<anonymous>)
+    at pack (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\abi\src.ts\coders\array.ts:54:12)
+    at TupleCoder.encode (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\abi\src.ts\coders\tuple.ts:54:20)
+    at AbiCoder.encode (D:\Projects\FlurryFinance\flurry-protocol\node_modules\@ethersproject\abi\src.ts\abi-coder.ts:112:15) {
+  reason: 'value out-of-bounds',
+  code: 'INVALID_ARGUMENT',
+  argument: 'floating',
+  value: BigNumber { value: "-139765495840951340389" }
+}

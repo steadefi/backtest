@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "allowJs": true, 
+    "outDir": "./dist"
+  },
+  "exclude": [
+    "./autotasks/**/*"
+  ],
+  "include": [
+    "hardhat.config.ts",
+    "utils/calculateContractSize.ts"
+  ],
+
+}

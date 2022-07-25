@@ -1,0 +1,50 @@
+{
+  "blockNo": 8881600,
+  "lpName": "USDT-WBNB LP",
+  "lpTokens": 0,
+  "token0_symbol": "USDT",
+  "token0_decimals": 18,
+  "token0": 0,
+  "token0_liquidity": 86940764.3947925,
+  "token0_price": 1,
+  "token0_posVal": 29797454.504353743,
+  "token0_posValUSD": 29797454.504353743,
+  "token0_debtVal": 16660291.37873227,
+  "token0_debtValUSD": 16660291.37873227,
+  "token1_symbol": "WBNB",
+  "token1_decimals": 18,
+  "token1": 0,
+  "token1_liquidity": 290646.8110229723,
+  "token1_price": 299.26642473,
+  "token1_posVal": 78026.43231795912,
+  "token1_posValUSD": 23350691.43423295,
+  "token1_debtVal": 46786.3652488333,
+  "token1_debtValUSD": 14001588.25413026,
+  "liquidity": 173921596.38881338,
+  "tvl": 0,
+  "health": 53148145.9385867,
+  "debt": 30661879.63286253,
+  "leverage": 2.363582518146072,
+  "workerPositions": [
+    {
+      "name": "USDT-WBNB PancakeswapWorker",
+      "address": "0x41867cc58aece8B570FF1A2a8aa6149014D2a94C",
+      "vault": "ibWBNB",
+      "borrowToken": "WBNB",
+      "posVal": 78026.43231795912,
+      "posValUSD": 23350691.43423295,
+      "debtVal": 46786.3652488333,
+      "debtValUSD": 14001588.25413026
+    },
+    {
+      "name": "WBNB-USDT PancakeswapWorker",
+      "address": "0x81b6534f4F7ba45Ecf98295Cef1450B4a4FC81Cd",
+      "vault": "ibUSDT",
+      "borrowToken": "USDT",
+      "posVal": 29797454.504353743,
+      "posValUSD": 29797454.504353743,
+      "debtVal": 16660291.37873227,
+      "debtValUSD": 16660291.37873227
+    }
+  ]
+}
