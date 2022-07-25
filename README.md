@@ -1,4 +1,4 @@
-# LYF Backtest
+# Leveraged Yield Farming Backtest
 
 ## Prerequisites
 
