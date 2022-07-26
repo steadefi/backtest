@@ -642,23 +642,25 @@ task("getAllRatesForOneBlockMultiCall", "Get borrow & lending rates for all vaul
       : mainnet.alpaca.Vaults;
     const numVaults = vaults.length;
 
-    // console.log(vaults);
-    // console.log(numVaults);
+    console.log(vaults);
+    console.log(numVaults);
 
     const calls1 = [];
     for (let vaultInfo of vaults) {
       const baseToken = await ethers.getContractAt("IERC20Metadata", vaultInfo.baseToken);
       const vault = await ethers.getContractAt("IIBToken", vaultInfo.address);
+      
       calls1.push({ contract: vault, functionName: "totalToken" });
       calls1.push({ contract: vault, functionName: "vaultDebtVal" });
       calls1.push({ contract: vault, functionName: "config" });
       calls1.push({ contract: baseToken, functionName: "symbol" });
       calls1.push({ contract: baseToken, functionName: "decimals" });
     }
+
     const results1: any[] = await multicallService.multiContractCall<Array<BigNumber>>(calls1, {
       blockNumber: blockTag,
     });
-    // console.log("results1:", results1);
+    console.log("results1:", results1);
 
     const vaultFloating = [];
     const calls2 = [];

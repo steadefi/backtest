@@ -27,7 +27,9 @@ export class Multicall2Service implements IMultiCallService {
           callData: call.contract.interface.encodeFunctionData(call.functionName, call.params),
         };
       });
-
+      console.log(calldata);
+      console.log(blockNumber);
+      
       const { returnData } = await this.multicallInstance.callStatic.aggregate(calldata, {
         blockTag: blockNumber,
       });

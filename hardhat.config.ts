@@ -2,7 +2,17 @@ import * as dotenv from "dotenv";
 dotenv.config({ path: `${__dirname}/.env` });
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import { task } from "hardhat/config";
 import "./tasks";
+
+
+
+task("accounts", "Prints the list of accounts").setAction(async (_, { ethers }) => {
+  const accounts = await ethers.getSigners();
+  for (const account of accounts) {
+    console.log(account.address);
+  }
+});
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -49,15 +59,13 @@ const config: HardhatUserConfig = {
       chainId: 250,
       gas: "auto",
       timeout: 300000,
-      // gasPrice: 15000000000 // 8 gwei
     },
     bscMainnet: {
       url: process.env.BSC_MAINNET_URL,
       chainId: 56,
-      // accounts: { mnemonic: process.env.BSC_MAINNET_MNEMONIC, count: 5 },
+      accounts: { mnemonic: process.env.BSC_MAINNET_MNEMONIC, count: 5 },
       gas: "auto",
       timeout: 300000,
-      // gasPrice: 15000000000 // 8 gwei
     },
   },
 };
