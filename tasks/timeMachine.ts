@@ -133,18 +133,18 @@ const dependencies = {
     //   decimals: 6,
     // },
     stable: {
-      // BUSD
+      // USDC   
       symbol: "USDC",
       address: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       vault: "0x800933D685E7Dc753758cEb77C8bd34aBF1E26d7",
       decimals: 18,
     },
-    // native: {
-    //   symbol: "BNB",
-    //   address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-    //   vault: "0xd7D069493685A581d27824Fc46EdA46B7EfC0063",
-    //   decimals: 18,
-    // },
+    native: {
+      symbol: "BNB",
+      address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      vault: "0xd7D069493685A581d27824Fc46EdA46B7EfC0063",
+      decimals: 18,
+    },
     // native: {
     //   symbol: "CAKE",
     //   address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
@@ -163,12 +163,12 @@ const dependencies = {
     //   vault: "0x08FC9Ba2cAc74742177e0afC3dC8Aed6961c24e7",
     //   decimals: 18,
     // },
-    native: {
-      symbol: "ETH",
-      address: "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      vault: "0xbfF4a34A4644a113E8200D7F1D79b3555f723AfE",
-      decimals: 18,
-    },
+    // native: {
+    //   symbol: "ETH",
+    //   address: "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    //   vault: "0xbfF4a34A4644a113E8200D7F1D79b3555f723AfE",
+    //   decimals: 18,
+    // },
     blockTimes: blocks_bsc,
     single: {
       url: {
@@ -176,6 +176,8 @@ const dependencies = {
           "https://time-machine-api.singlefinance.io/simulate/bsc-pancakeswap-264/simulate?principal=10000&period=3&toDate={date}&type=historical",
         BNB_BUSD:
           "https://time-machine-api.singlefinance.io/simulate/bsc-pancakeswap-252/simulate?principal=10000&period=3&toDate={date}&type=historical",
+        BNB_USDC:
+          "https://time-machine-api.singlefinance.io/simulate/bsc-pancakeswap-283/simulate?principal=10000&period=3&toDate={date}&type=historical",
         CAKE_BUSD:
           "https://time-machine-api.singlefinance.io/simulate/bsc-pancakeswap-389/simulate?principal=10000&period=3&toDate={date}&type=historical",
         ALPACA_BUSD:
